@@ -1,0 +1,1 @@
+export const SCHEMA = 'com.gymbuddy.circuit.ai';

@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "gymbuddy-circuit",
+    "slug": "gymbuddy-circuit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gymbuddy.circuit.ai"
+    },
+    "plugins": [
+      [
+        "react-native-auth0",
+        {
+          "domain": "gymbuddyai.eu.auth0.com",
+          "customScheme": "gymbuddy.circuit.ai"
+        }
+      ]
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gymbuddy.circuit.ai"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b16c5c7-cb82-4a43-b950-38f40cd3f106"
+      }
+    }
+  }
+}
